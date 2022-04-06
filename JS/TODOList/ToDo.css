@@ -1,0 +1,16 @@
+body {
+    background-color: green;
+}
+
+h1{
+    font-size: 100px;
+}
+
+.wrapper{    
+    text-align: center;
+}
+
+
+p{
+    font-size: 30px;
+}

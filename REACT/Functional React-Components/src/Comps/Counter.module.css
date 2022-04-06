@@ -1,0 +1,19 @@
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 30px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+}
+
+button:hover{
+    background-color: rgb(206, 24, 24);
+}
