@@ -77,9 +77,9 @@ app.delete('/students', (req, res) => {
     const content = req.body;
     
     students.forEach(element => {
-        newStudents = students
+
         if (element.id == content.id){
-            students.filter(checkStudents = () =>{
+            newStudents = students.filter(checkStudents = () =>{
                 return element.id != content.id
             })
             res.send(newStudents);
